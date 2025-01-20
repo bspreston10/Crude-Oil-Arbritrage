@@ -15,7 +15,7 @@ The data in this model was collected from the U.S Energy Information Administrat
 <img width="1417" alt="Screenshot 2025-01-20 at 5 05 11 PM" src="https://github.com/user-attachments/assets/277333a2-7281-45a1-adc1-9cc0effeb68a" />
 
 **Column Data**
-- *Period:* (Primary Key) The date the price of oil was fetched at
+- *Period:* (01/01/2000 - 4/5/2024) The date the price of oil was fetched at
 - *Year:* Year of the period column
 - *Month:* Month of the period column
 - *product-name:* Name of the commodity (Crude Oil)
@@ -28,3 +28,4 @@ The data in this model was collected from the U.S Energy Information Administrat
 - *Cost of Carry:* Total cost of holding the crude oil
 - *Convience Yield:* The non-monetary benefit of holding the crude oil, rather than holding a futures contract
 - *Theoretical Future Price:* The future price calculated for their respective future contract
+- *1, 2, 3 Month Rates:* The U.S treasury yield rate, values are backfilled from July 31st 2000 - January 1st 2000 due to insufficient data
