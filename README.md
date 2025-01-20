@@ -29,3 +29,20 @@ The data in this model was collected from the U.S Energy Information Administrat
 - *Convience Yield:* The non-monetary benefit of holding the crude oil, rather than holding a futures contract
 - *Theoretical Future Price:* The future price calculated for their respective future contract
 - *1, 2, 3 Month Rates:* The U.S treasury yield rate, values are backfilled from July 31st 2000 - January 1st 2000 due to insufficient data
+
+
+## Arbritrage Model
+### Setting up the model
+Before running any backtesting on the arbritrage strategy, I needed to compute the theoretical future price to compare it to the actual future price. The future theoretical future price equation requires the spot price, the risk free rate, storage costs, convience yield, and time to maturity:
+- Spot price was gathered from the EIA dataset
+- For the risk-free rates, I collected the 1 month, 2 month, 3 month U.S treasury yield rates as proxies for the futures contract risk free rates
+- For simplicity, the storage cost is assumed to be zero, although any real world application of this arbritrage model would need to account for storage cost
+- The convience yield is calculated from the exponential cost-of-carry model where the convience yield = risk free rate + CoC - (Log(future price/spot price)) / time to expire
+- The Cost of Carry (CoC) is calcualted from the exponential cost-of-carry model where CoC = spot price * risk free rate * time to expire
+- Time to expire is calcualted by dividing the days to expire by 365 to get the years left to expire
+- As a constant for transaction costs, slippage, and hedging I subtracted $1000 from any trade made to simulate real world scenarios
+
+After computing the theoretical future price, the arbritrage model would initiate either a "Buy futures, short spot" when the theoretical future price was greater than the actual future price, a "Short futures, buy spot" if the theoretical future price was less than the acutal future price, and a "No arbritrage opprotunity" if the prices were equal to eachother. The total arbritrage profit was calculated by the absolute difference in theoretical and future price, multiplied by 1000 (constant for contract size), and then subtracted by $1000 (proxy for transaction costs)
+
+### Model Performance
+Backtesting this strategy from January 1st 2000 to April 5 2024, I generated a $122,512 profit. Interestingly however, 100% of the profit was actually generated on shorting futures and buy spot prices. 
