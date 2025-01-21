@@ -52,8 +52,9 @@ The strategy was backtested over the period from January 1, 2000, to April 5, 20
 The spring of 2020 marked an unprecedented event in the global oil markets, driven by a combination of collapsing demand and oversupply. The onset of the COVID-19 pandemic resulted in widespread lockdowns and travel restrictions, leading to a dramatic decline in global energy consumption. At the same time, a price war between major oil producers, particularly Saudi Arabia and Russia, exacerbated the oversupply issue, flooding the market with excess crude oil. These factors culminated in a historic moment on April 20, 2020, when the price of West Texas Intermediate (WTI) crude oil futures plunged below zero for the first time in history, reaching -$37.63 per barrel. This anomaly was largely attributed to a shortage of storage capacity, forcing sellers to pay buyers to take delivery of oil. Lets look at this phenomon graphically to better understand what happened, and if there was any quantitative warning that may have been overlooked by many.
 #### January 2020 - February 2020:
 
-<img width="1000" alt="Screenshot 2025-01-21 at 6 43 10 PM" src="https://github.com/user-attachments/assets/8ee5c662-4d30-4744-8308-821cc9a1059e" />    <img width="1000" alt="Screenshot 2025-01-21 at 6 43 48 PM" src="https://github.com/user-attachments/assets/5ca7446e-73d4-4cd8-ac64-bda81ebc454f" />
+<img width="400" alt="Screenshot 2025-01-21 at 6 43 10 PM" src="https://github.com/user-attachments/assets/8ee5c662-4d30-4744-8308-821cc9a1059e" />    <img width="400" alt="Screenshot 2025-01-21 at 6 43 48 PM" src="https://github.com/user-attachments/assets/5ca7446e-73d4-4cd8-ac64-bda81ebc454f" />
 
+Despite a catastrophe soon to approach for the oil market, the months preceeding the oil crash we see minimal price discrepencies between the future contracts, as well as between the spot and future price of crude oil. This tight spread is often associated with market stability, as the COVID-19 pandemic hadn't been declared a pandemic yet and the OPEC production cuts were agreed upon a month earlier preventing a chance for oversupply. 
 
 
 
