@@ -45,4 +45,16 @@ Before running any backtesting on the arbritrage strategy, I needed to compute t
 After computing the theoretical future price, the arbritrage model would initiate either a "Buy futures, short spot" when the theoretical future price was greater than the actual future price, a "Short futures, buy spot" if the theoretical future price was less than the acutal future price, and a "No arbritrage opprotunity" if the prices were equal to eachother. The total arbritrage profit was calculated by the absolute difference in theoretical and future price, multiplied by 1000 (constant for contract size), and then subtracted by $1000 (proxy for transaction costs)
 
 ### Model Performance
-Backtesting this strategy from January 1st 2000 to April 5 2024, I generated a $122,512 profit. Interestingly however, 100% of the profit was actually generated on shorting futures and buy spot prices. 
+The strategy was backtested over the period from January 1, 2000, to April 5, 2024, yielding a cumulative profit of $122,512. Notably, the entirety of the profit was derived from shorting futures while buying spot prices. A particularly profitable period was observed during the 2020 oil crash, when spot prices turned negative for the first time in history. Despite the impressive returns, the model does not fully account for certain variables that significantly impact the profitability of trades, such as storage costs and convenience yield. Due to the lack of direct access to comprehensive data on these variables, proxies were employed to estimate their effects. While these approximations provide a general insight into the strategy’s performance, the absence of precise data introduces a level of uncertainty that warrants further investigation.
+
+## Market Analysis
+### 2020 Oil Crash
+The spring of 2020 marked an unprecedented event in the global oil markets, driven by a combination of collapsing demand and oversupply. The onset of the COVID-19 pandemic resulted in widespread lockdowns and travel restrictions, leading to a dramatic decline in global energy consumption. At the same time, a price war between major oil producers, particularly Saudi Arabia and Russia, exacerbated the oversupply issue, flooding the market with excess crude oil. These factors culminated in a historic moment on April 20, 2020, when the price of West Texas Intermediate (WTI) crude oil futures plunged below zero for the first time in history, reaching -$37.63 per barrel. This anomaly was largely attributed to a shortage of storage capacity, forcing sellers to pay buyers to take delivery of oil. Lets look at this phenomon graphically to better understand what happened, and if there was any quantitative warning that may have been overlooked by many.
+#### January 2020 - February 2020:
+
+<img width="650" alt="Screenshot 2025-01-21 at 6 43 10 PM" src="https://github.com/user-attachments/assets/8ee5c662-4d30-4744-8308-821cc9a1059e" />    <img width="650" alt="Screenshot 2025-01-21 at 6 43 48 PM" src="https://github.com/user-attachments/assets/5ca7446e-73d4-4cd8-ac64-bda81ebc454f" />
+
+
+
+
+
