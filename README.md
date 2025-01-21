@@ -12,7 +12,7 @@ This project explores the trends and key metrics leading up to these market cras
 ## Methodology
 The data in this model was collected from the U.S Energy Information Administration (EIA) focusing on the spot price FOB of WTI crude oil price in $/BBL, as well as NYMEX future contracts for crude oil. Below is a screenshot of the excel sheet of the data I worked with.
 
-<img width="1417" alt="Screenshot 2025-01-20 at 5 05 11 PM" src="https://github.com/user-attachments/assets/277333a2-7281-45a1-adc1-9cc0effeb68a" />
+<img width="1000" alt="Screenshot 2025-01-20 at 5 05 11 PM" src="https://github.com/user-attachments/assets/277333a2-7281-45a1-adc1-9cc0effeb68a" />
 
 **Column Data**
 - *Period:* (01/01/2000 - 4/5/2024) The date the price of oil was fetched at
@@ -52,7 +52,7 @@ The strategy was backtested over the period from January 1, 2000, to April 5, 20
 The spring of 2020 marked an unprecedented event in the global oil markets, driven by a combination of collapsing demand and oversupply. The onset of the COVID-19 pandemic resulted in widespread lockdowns and travel restrictions, leading to a dramatic decline in global energy consumption. At the same time, a price war between major oil producers, particularly Saudi Arabia and Russia, exacerbated the oversupply issue, flooding the market with excess crude oil. These factors culminated in a historic moment on April 20, 2020, when the price of West Texas Intermediate (WTI) crude oil futures plunged below zero for the first time in history, reaching -$37.63 per barrel. This anomaly was largely attributed to a shortage of storage capacity, forcing sellers to pay buyers to take delivery of oil. Lets look at this phenomon graphically to better understand what happened, and if there was any quantitative warning that may have been overlooked by many.
 #### January 2020 - February 2020:
 
-<img width="650" alt="Screenshot 2025-01-21 at 6 43 10 PM" src="https://github.com/user-attachments/assets/8ee5c662-4d30-4744-8308-821cc9a1059e" />    <img width="650" alt="Screenshot 2025-01-21 at 6 43 48 PM" src="https://github.com/user-attachments/assets/5ca7446e-73d4-4cd8-ac64-bda81ebc454f" />
+<img width="1000" alt="Screenshot 2025-01-21 at 6 43 10 PM" src="https://github.com/user-attachments/assets/8ee5c662-4d30-4744-8308-821cc9a1059e" />    <img width="1000" alt="Screenshot 2025-01-21 at 6 43 48 PM" src="https://github.com/user-attachments/assets/5ca7446e-73d4-4cd8-ac64-bda81ebc454f" />
 
 
 
