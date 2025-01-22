@@ -4,7 +4,6 @@
 - [Methodology](#methodology)
 - [Arbritrage Model](#arbritrage-model)
 - [2020 Market Analysis](#2020-oil-crash-analysis)
-- [Market Strucutre Detection](#market-strucutre-detection)
 
 ## Introduction
 Crude oil is one of the most traded commodities globally, valued for its relative security and fundamental role in modern society. However, despite its perceived stability, the oil market has experienced significant price drops during events such as the 2008 financial crisis and the 2020 oil crash. While many market participants faced substantial losses during these periods, firms like Gunvor Group and Trafigura capitalized on the opportunity by leveraging a contango market structure.
@@ -30,7 +29,10 @@ The data in this model was collected from the U.S Energy Information Administrat
 - *Convience Yield:* The non-monetary benefit of holding the crude oil, rather than holding a futures contract
 - *Theoretical Future Price:* The future price calculated for their respective future contract
 - *1, 2, 3 Month Rates:* The U.S treasury yield rate, values are backfilled from July 31st 2000 - January 1st 2000 due to insufficient data
+### Project Data
+The data used for this analysis is available in the repository. You can download the Excel file here:
 
+- [Project Data File](arbritrage_oil_final.xlsx): Contains the data used to analyze spreads between spot and future prices and the detailed future contracts.
 
 ## Arbritrage Model
 ### Setting up the model
