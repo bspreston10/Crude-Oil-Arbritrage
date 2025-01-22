@@ -2,8 +2,9 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
-- [Findings](#findings)
-- [Conclusion](#conclusion)
+- [Arbritrage Model](#arbritrage-model)
+- [2020 Market Analysis](#2020-oil-crash-analysis)
+- [Market Strucutre Detection](#market-strucutre-detection)
 
 ## Introduction
 Crude oil is one of the most traded commodities globally, valued for its relative security and fundamental role in modern society. However, despite its perceived stability, the oil market has experienced significant price drops during events such as the 2008 financial crisis and the 2020 oil crash. While many market participants faced substantial losses during these periods, firms like Gunvor Group and Trafigura capitalized on the opportunity by leveraging a contango market structure.
@@ -72,4 +73,4 @@ Overall this event was largely due to two main reasons:
 
 These events caused the oil market to go into panic mode, leading to a sharp and unprecedented decline in oil prices. As demand plummeted due to global lockdowns and travel restrictions, and supply surged from Saudi Arabia’s aggressive production and pricing strategy, the market became severely imbalanced. Storage facilities quickly filled up, creating logistical challenges that further exacerbated the crisis.
 
-
+I invite you to explore the Excel sheet containing the project data and an interactive dashboard that tracks the future and spot price as well as the spread between the different future contracts.
